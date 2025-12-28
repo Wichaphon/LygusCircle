@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import DesktopNavbar from './DesktopNavbar'
+import MobileNavbar from './MobileNavbar'
 
 async function Navbar() {
     
@@ -13,7 +15,8 @@ async function Navbar() {
                     </Link>
                 </div>
 
-
+                <DesktopNavbar />
+                <MobileNavbar />
             </div>
         </div>
     </nav>
